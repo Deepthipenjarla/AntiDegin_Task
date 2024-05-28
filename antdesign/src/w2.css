@@ -1,0 +1,37 @@
+/* Default styles */
+.Webpage2 {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .Webpage2 {
+        padding: 10px;
+    }
+
+    .App-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ant-table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .ant-table-container {
+        width: 100%;
+    }
+
+    .ant-table-thead th {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ant-table-thead th {
+        font-size: 12px;
+    }
+}

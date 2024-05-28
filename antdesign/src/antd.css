@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.App-header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+.ant-table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.ant-btn {
+    margin-bottom: 10px;
+}
+
+/* Modal styles */
+.ant-modal-content {
+    border-radius: 5px;
+}
+
+/* Chart styles */
+.recharts-wrapper {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Links styles */
+.App-header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1890ff;
+}
+
+    .App-header a:hover {
+        text-decoration: underline;
+    }

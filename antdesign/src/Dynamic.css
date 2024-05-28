@@ -1,0 +1,31 @@
+.table-container {
+    margin-top: 20px;
+}
+
+.ant-select {
+    width: 100%;
+}
+
+.ant-table-wrapper {
+    margin-top: 20px;
+}
+
+.ant-tag {
+    margin-right: 8px;
+}
+
+.ant-table-thead > tr > th {
+    white-space: nowrap;
+}
+
+.rc-chart {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .rc-chart {
+        height: 300px; /* Adjust the height as needed for smaller screens */
+    }
+}
